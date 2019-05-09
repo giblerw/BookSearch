@@ -1,5 +1,5 @@
 // src\Search\script.js
-
+import Vue from 'vue';
 import bus from '../bus';
 import SortBy from '../SortBy/index.vue';
 
@@ -13,6 +13,7 @@ export default {
     data() {
       return {
         query: '',
+        searched: false
       }
     },
 
@@ -20,7 +21,7 @@ export default {
       onSubmit(event) {
         if (this.query && this.query !== '') {
           bus.$emit('new-query', this.query)
-          
+          this.searched = true;
         }
       },
       onSortChange(event) {

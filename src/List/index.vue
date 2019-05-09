@@ -5,7 +5,7 @@
     <p id="search-propmt" v-if="currentQuery == 'default'">
       Submit a search above to get Book data.
     </p>
-    <div v-if="currentQuery !== 'default'">
+    <div v-if="totalItems !== 0">
       <h6 id="result-propmt">Search found <b>{{ listData[currentQuery].totalItems }}</b> results for: <em><b id="query-read">{{ currentQuery }}</b></em></h6>
       <list-items :data="listData[currentQuery]" id="list-container"></list-items>
     </div>

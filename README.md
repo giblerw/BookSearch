@@ -63,8 +63,14 @@ $ yarn test:unit
 * Firebase
 ---
 
-## Notes & Thoughts
-
+## Notes & TODOs
+ 
+#### Thoughts
+*
+#### What's next?
+* Finish the sorting toggle.
+* Add reordering to list.
+* Add a bookshelf to add/remove books from. 
 ---
 
 ## Instructions

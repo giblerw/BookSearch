@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue renders correctly 1`] = `
+<div>
+  <header
+    class="row"
+    id="app-header"
+  >
+    <h3
+      class="col-lg-3"
+      id="app-title"
+    >
+      Bookz
+    </h3>
+     
+    <div
+      class="search-bar-container col-lg-9"
+      id="search-bar"
+    >
+      <form>
+        <input
+          placeholder="Search here"
+          type="search"
+        />
+         
+        <i
+          class="fa fa-search"
+        >
+          <button
+            id="search-submit"
+            type="submit"
+          />
+        </i>
+      </form>
+       
+      <!---->
+    </div>
+  </header>
+   
+  <div
+    id="list-container"
+  >
+    <div
+      class="list-prompt"
+    >
+      <p
+        id="search-propmt"
+      >
+        
+    Submit a search above to get Book data.
+  
+      </p>
+       
+      <!---->
+    </div>
+  </div>
+</div>
+`;

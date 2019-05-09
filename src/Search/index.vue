@@ -6,7 +6,7 @@
       <input type="search" v-model="query" placeholder="Search here" />
       <i class="fa fa-search"><button id="search-submit" type="submit"></button></i>            
     </form>  
-    <sort-by :sortBy="onSortChange" :query="query"></sort-by>
+    <sort-by v-if="searched" :sortBy="onSortChange" :query="query"></sort-by>
   </div>
 </template>
 

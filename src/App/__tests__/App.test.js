@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils';
+import { shallowMount, mount } from '@vue/test-utils';
 import AppComponent from '../index.vue';
 
 describe('App.vue', () => {
@@ -8,4 +8,8 @@ describe('App.vue', () => {
         .toEqual('Bookz');
     });
 
+    it('renders correctly', () => {
+        const wrapper = mount(AppComponent);
+        expect(wrapper.element).toMatchSnapshot();
+    })
 });

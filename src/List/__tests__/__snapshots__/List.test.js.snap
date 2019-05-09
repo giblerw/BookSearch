@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List.vue should render prompt before search 1`] = `
+<div
+  class="list-prompt"
+>
+  <p
+    id="search-propmt"
+  >
+    
+    Submit a search above to get Book data.
+  
+  </p>
+   
+  <!---->
+</div>
+`;
+
+exports[`List.vue should render results prompt after search 1`] = `
+<div
+  class="list-prompt"
+>
+  <!---->
+   
+  <!---->
+</div>
+`;
