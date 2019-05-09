@@ -1,8 +1,11 @@
 .book-title {
-    background-color: rgba(201, 200, 200,.4);
-    padding: 20px;
+    background-color: rgba(148, 148, 148, 0.25);
+    padding: 8px 12px 8px 2%;
     font-size: 1.4em;
     text-align: left;
+    margin-right: 55%;
+    border-bottom: 1px solid rgba(148, 148, 148, 0.5);
+    border-left: 1px solid rgba(148, 148, 148, 0.5);
 }
 
 .book-data-content {

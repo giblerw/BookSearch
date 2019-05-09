@@ -1,5 +1,11 @@
+.app-container {
+    background-color: rgba(167, 182, 209, 0.404);
+    min-height: 1000px;
+}
+
 #app-header {
-    background-color: rgb(201, 200, 200);
+    background-color: rgba(95, 94, 94, 0.61);
+    border-bottom: 1px solid rgba(148,148,148,1);
 }
 
 #list-container {
