@@ -1,7 +1,7 @@
 # Bookz
 ### Author: Weston Gibler
 ---
-### [Deployed App](https://bookz-by-gibler.firebaseapp.com/ "Bookz App")
+### [Deployed App](https://bookz-by-weston.firebaseapp.com/ "Bookz App")
 ---
 ## How to run app locally:
 
