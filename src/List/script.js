@@ -3,7 +3,6 @@
 import Vue from 'vue';
 import bus from '../bus';
 import config from '../config';
-// import ListItems from '../ListItems/index.vue';
 
 export default {
   name: 'List',
@@ -24,13 +23,10 @@ export default {
   methods: {
     onQueryChange(query) {                
         this.fetchListData(query)
-        // this.currentQuery = query
     },
     onSortChange(sort) {
         this.activeSort = sort
-        console.log(activeSort)
-      },
-      
+    },
     fetchListData(query) {
         // if we have data already, don't request again
         if (this.listData.hasOwnProperty(query)) return
@@ -47,12 +43,10 @@ export default {
   },
   
   created() {    
-    bus.$on('new-query', this.onQueryChange)  
-    // bus.$on('with-sort', this.onSortChange)  
+    bus.$on('new-query', this.onQueryChange)    
   },
 
   destroyed() {
     bus.$off('new-query', this.onQueryChange)
-    // bus.$off('with-sort', this.onSortChange)
   }
 }

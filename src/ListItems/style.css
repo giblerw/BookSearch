@@ -11,7 +11,7 @@
     justify-content: space-evenly;
 }
 
-#book-description {
+.book-description {
     text-align: left;
     text-indent: 40px;
 }

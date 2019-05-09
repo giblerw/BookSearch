@@ -61,16 +61,18 @@ $ yarn test:unit
 * Google Books API
 #### Hosting
 * Firebase
+    * I used firebase because I've had mostly good luck with it in the past. Using the Firebase CLI tools, adding cloud functionality and hosting services to your app has never seemed more strait forward and quick... Which is exactly what I was looking for to bring this one home.
 ---
 
 ## Notes & TODOs
  
 #### Thoughts
-*
+* I had fun with this one. It had been a little while since I last built anything with Vue; became the blocker from me finishing all the tasks within time.
+* I started building the project in a simple HTML/CSS/JS file structure. About halfway through, I decided to migrate the project to a component based structure as well as upgrading to use vue-cli v.3. This removed all the cumbersome boiler plate configuration that I had spent a good chunk of time on. Definately worth doing for this project, as it really abstracted away all the noise.
 #### What's next?
-* Finish the sorting toggle.
-* Add reordering to list.
-* Add a bookshelf to add/remove books from. 
+* As it is now, I am finishing up the orderBy toggle switch; changing how the results are ordered.
+* After that, I want to integrate a "bookshelf"; where the user can add and delete books at will.
+* Lastly, I will add a few filtering toggles, links and inbedded reading.
 ---
 
 ## Instructions
@@ -81,11 +83,11 @@ $ yarn test:unit
 
 -  Change the order of the items in the list
 
--  Sort the list of books by a criteria
+-  (In progress...) Sort the list of books by a criteria
 
 -  ~~Display a book page with a minimum of 3 data points~~
 
--  Include unit tests
+-  ~~Include unit tests~~
 
 -  ~~Deploy it on the cloud~~
 ---

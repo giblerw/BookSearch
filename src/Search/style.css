@@ -45,6 +45,7 @@ input{
 
 form:hover{
     width: 30vw;
+    min-width:200px;
     cursor: pointer;
 }
 

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search.vue renders the expected HTML structure, after search 1`] = `
+<div
+  class="search-bar-container"
+>
+  <form>
+    <input
+      placeholder="Search here"
+      type="search"
+    />
+     
+    <i
+      class="fa fa-search"
+    >
+      <button
+        id="search-submit"
+        type="submit"
+      />
+    </i>
+  </form>
+   
+  <span
+    id="sort-button-group"
+  >
+    <span>
+      Sort By: 
+    </span>
+     
+    <button
+      class="relevant-sort-btn active"
+      value="relevance"
+    >
+      
+        Relevance
+    
+    </button>
+     
+    <button
+      class="newest-sort-btn"
+      disabled="disabled"
+      value="newest"
+    >
+      
+        Newest
+    
+    </button>
+  </span>
+</div>
+`;
+
+exports[`Search.vue renders the expected HTML structure, before search 1`] = `
+<div
+  class="search-bar-container"
+>
+  <form>
+    <input
+      placeholder="Search here"
+      type="search"
+    />
+     
+    <i
+      class="fa fa-search"
+    >
+      <button
+        id="search-submit"
+        type="submit"
+      />
+    </i>
+  </form>
+   
+  <!---->
+</div>
+`;

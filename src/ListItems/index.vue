@@ -22,8 +22,8 @@
           <!-- Description -->
           <div class="col-lg-8 book-description">
             <dt>Book Summary:</dt>
-            <dd id="book-description" v-if="book.volumeInfo.description"> {{ book.volumeInfo.description }}</dd>
-            <dd v-else> N/A</dd>
+            <dd class="book-description" v-if="book.volumeInfo.description"> {{ book.volumeInfo.description }}</dd>
+            <dd v-else class="book-description"> N/A</dd>
           </div>          
         </dd>
       </div>

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItems.vue renders the expected HTML structure 1`] = `
+<div>
+  <dl
+    id="book-list"
+  >
+    <div>
+      <hr />
+       
+      <dt
+        class="book-title"
+      >
+        1. 
+        <b>
+          <u>
+            Testament to Youth
+          </u>
+        </b>
+      </dt>
+       
+      <dd
+        class="row book-data-content"
+      >
+        <div
+          class="col-lg-2 book-cover-img"
+        >
+          <img
+            alt="book-cover-img"
+            src="http://books.google.com/books/content?id=YSI4AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+          />
+        </div>
+         
+        <div
+          class="col-lg-2"
+        >
+          <dt>
+            Author(s):
+          </dt>
+           
+          <div
+            class="book-authors"
+          >
+            <dd>
+              Vera Brittain
+            </dd>
+          </div>
+        </div>
+         
+        <div
+          class="col-lg-8 book-description"
+        >
+          <dt>
+            Book Summary:
+          </dt>
+           
+          <dd
+            class="book-description"
+          >
+             This classic memoir of the First World War is now a major motion picture starring Alicia Vikander and Kit Harington. Includes an afterword by Kate Mosse OBE. In 1914 Vera Brittain was 20, and as war was declared she was preparing to study at Oxford. Four years later her life - and the life of her whole generation - had changed in a way that would have been unimaginable in the tranquil pre-war era. TESTAMENT OF YOUTH, one of the most famous autobiographies of the First World War, is Brittain's account of how she survived those agonising years; how she lost the man she loved; how she nursed the wounded and how she emerged into an altered world. A passionate record of a lost generation, it made Vera Brittain one of the best-loved writers of her time, and has lost none of its power to shock, move and enthral readers since its first publication in 1933.
+          </dd>
+        </div>
+      </dd>
+    </div>
+  </dl>
+</div>
+`;

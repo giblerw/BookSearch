@@ -3,8 +3,8 @@
 <template>
   <div>
     <header class="row" id="app-header" >      
-      <h3 class="col-lg-3" id="app-title" >Bookz</h3>
-      <search class="col-lg-9" id="search-bar" ></search>
+      <h3 class="col-sm-3" id="app-title" >Bookz</h3>
+      <search class="col-sm-9" id="search-bar" ></search>
     </header>
     <div id="list-container">      
       <list></list>
