@@ -1,34 +1,86 @@
-# bookz
+# Bookz
+### Author: Weston Gibler
+---
+### [Deployed App](https://bookz-by-gibler.firebaseapp.com/ "Bookz App")
+---
+## How to run app locally:
 
-## Project setup
-```
-yarn install
-```
+#### In your terminal:
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+1. Clone the repository to your local disk:
+ ```
+$ git clone https://github.com/giblerw/Bookz.git
 ```
 
-### Run your tests
+2. Open the project directory, and install dependencies:
 ```
-yarn run test
+$ cd bookz
 ```
-
-### Lints and fixes files
 ```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
+$ npm install 
+    OR 
+$ yarn
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3. Start local server:
+```
+$ npm run start 
+    OR 
+$ yarn start
+
+```
+
+4. Open a browser window; go to:
+```
+localhost://8080
+```
+---
+
+## How to run tests:
+
+#### In the project's root directory:
+
+1. Run the test command:
+```
+$ npm run test
+    OR
+$ yarn test
+```
+---
+
+## Technology Used
+
+#### Front End
+* Vue.js
+* Vue-Cli v3
+* Webpack 
+* Babel
+* Eslint
+* Bootstrap 4
+* Jest
+#### APIs
+* Google Books API
+#### Hosting
+* Firebase
+---
+
+## Notes & Thoughts
+
+---
+
+## Instructions
+
+#### Find a publically available open API and Create a Vue app that allows the user to
+
+-  Add or remove from the list
+
+-  Change the order of the items in the list
+
+-  Sort the list of books by a criteria
+
+-  ~~Display a book page with a minimum of 3 data points~~
+
+-  Include unit tests
+
+-  ~~Deploy it on the cloud~~
+---

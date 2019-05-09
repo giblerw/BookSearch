@@ -1,0 +1,26 @@
+.book-title {
+    background-color: rgba(201, 200, 200,.4);
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.book-data-content {
+    padding: 20px;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+#book-description {
+    text-align: left;
+    text-indent: 40px;
+}
+
+.book-cover-img img {
+    box-sizing: content-box;
+    margin-top: 25%;
+}
+
+.book-authors {
+    padding-top: 5px;
+}

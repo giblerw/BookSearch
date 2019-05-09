@@ -1,0 +1,19 @@
+#app-header {
+    background-color: rgb(201, 200, 200);
+}
+
+#list-container {
+    margin: 20px 50px;
+    text-align: center;
+}
+
+#app-title {
+    text-align: left;
+    left: 25px;
+    top: 15px;
+}
+
+#search-bar {
+    text-align: center;
+    padding:20px;
+}

@@ -1,8 +1,13 @@
+// src\main.js
+
 import Vue from 'vue';
-import App from './App.vue';
 
-Vue.config.productionTip = false;
+import AppComponent from './App/index.vue';
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app');
+const vm = new Vue({
+  el: '#app',
+  components: {
+    app: AppComponent,
+  },
+  render: h => h('app'),
+});
