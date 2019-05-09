@@ -1,14 +1,14 @@
 <!-- src\List\index.vue -->
 
 <template>
-  <div>
-    <p v-if="currentQuery == null">
-      Submit a search above to see Book data.
+  <div class="list-prompt">
+    <p id="search-propmt" v-if="currentQuery == 'default'">
+      Submit a search above to get Book data.
     </p>
-    <p v-else>
-      Found <b>{{ listData[currentQuery].totalItems }}</b> results for <b>{{ currentQuery }}</b>:
-      <list-items :data="listData[currentQuery]"></list-items>
-    </p>
+    <div v-if="currentQuery !== 'default'">
+      <h6 id="result-propmt">Search found <b>{{ listData[currentQuery].totalItems }}</b> results for: <em><b id="query-read">{{ currentQuery }}</b></em></h6>
+      <list-items :data="listData[currentQuery]" id="list-container"></list-items>
+    </div>
   </div>
 </template>
 

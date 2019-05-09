@@ -6,7 +6,7 @@
       <div v-for="(book, index) in data.items" v-bind:key="book.id">
         <hr />
         <!-- Title Bar -->
-        <dt class="book-title">{{ index }}. <u>{{ book.volumeInfo.title }}</u></dt>
+        <dt class="book-title">{{ index +1 }}. <b><u>{{ book.volumeInfo.title }}</u></b></dt>
         <!-- Body -->
         <dd class="row book-data-content">
           <!-- Book Cover Image -->

@@ -18,16 +18,15 @@ $ cd bookz
 ```
 ```
 $ npm install 
-    OR 
+    or 
 $ yarn
 ```
 
 3. Start local server:
 ```
 $ npm run start 
-    OR 
+    or 
 $ yarn start
-
 ```
 
 4. Open a browser window; go to:
@@ -42,9 +41,9 @@ localhost://8080
 
 1. Run the test command:
 ```
-$ npm run test
-    OR
-$ yarn test
+$ npm run test:unit
+    or
+$ yarn test:unit
 ```
 ---
 

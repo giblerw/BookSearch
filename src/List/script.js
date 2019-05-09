@@ -14,21 +14,33 @@ export default {
 
   data() {
     return {
-      currentQuery: null,
-      listData: {},
+      currentQuery: 'default',
+      listData: {
+        'default' : {
+          items:[],
+          kind: '',
+          totalItems: 0
+        }
+      },
+      activeSort: 'relevance',
     }
   },
 
   methods: {
     onQueryChange(query) {
-        this.currentQuery = query
+        this.currentQuery = query        
         this.fetchListData(query)
     },
+    onSortChange(sort) {
+        this.activeSort = sort
+        console.log(activeSort)
+      },
+      
     fetchListData(query) {
         // if we have data already, don't request again
-        if (this.listData.hasOwnProperty(query)) return
+        // if (this.listData.hasOwnProperty(query)) return
 
-        const url = config.BASE_URL + `?q=${query}`;
+        const url = config.BASE_URL + `?q=${query}` + `?orderBy=${this.activeSort}`;
         fetch(url)
           .then(r => r.json())
           .then(data => {
@@ -36,12 +48,14 @@ export default {
           })
       }
   },
-
-  created() {
-    bus.$on('new-query', this.onQueryChange)
+  
+  created() {    
+    bus.$on('new-query', this.onQueryChange)  
+    // bus.$on('with-sort', this.onSortChange)  
   },
 
   destroyed() {
     bus.$off('new-query', this.onQueryChange)
+    // bus.$off('with-sort', this.onSortChange)
   }
 }

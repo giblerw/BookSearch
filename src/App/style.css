@@ -9,11 +9,13 @@
 
 #app-title {
     text-align: left;
-    left: 25px;
-    top: 15px;
+    padding-left: 4%;
+    top: 0;
+    align-self: center;
+    font-size: 2.4em;
 }
 
 #search-bar {
-    text-align: center;
-    padding:20px;
+    padding:30px;
+    
 }

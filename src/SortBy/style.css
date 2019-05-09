@@ -1,0 +1,19 @@
+#sort-button-group {
+    position: absolute;
+    right: 2.5vw;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 0 8px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+/* Style the active class (and buttons on mouse-over) */
+.active, button:hover {
+background-color: #666;
+color: white;
+}
